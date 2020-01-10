@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - xsane 
+# ELS - Enterprise Linux/EuroLinux Sources - xsane
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
