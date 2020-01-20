@@ -15,7 +15,7 @@
 Name: xsane
 Summary: X Window System front-end for the SANE scanner interface
 Version: 0.999
-Release: 9%{?dist}
+Release: 7%{?dist}
 Source0: http://www.xsane.org/download/%{name}-%{version}.tar.gz
 Source1: xsane-256x256.png
 # use "xdg-open" instead of "netscape" to launch help browser
@@ -230,12 +230,6 @@ fi
 %{_datadir}/sane/xsane
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.999-9
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.999-8
-- Mass rebuild 2013-12-27
-
 * Mon Sep 23 2013 Nils Philippsen <nils@redhat.com> - 0.999-7
 - get rid of ancient compat cruft
 - build against lcms2
